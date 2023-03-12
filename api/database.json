@@ -1,0 +1,7 @@
+{
+    "dev": {
+        "driver": "mysql",
+        "user": "root",
+        "password": "test"
+    }
+}
