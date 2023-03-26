@@ -2,6 +2,7 @@
     "dev": {
         "driver": "mysql",
         "user": "root",
-        "password": "test"
+        "password": "test",
+        "database": "Finances"
     }
 }

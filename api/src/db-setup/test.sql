@@ -1,5 +1,0 @@
-CREATE DATABASE Test;
-USE Test;
-CREATE TABLE TestSuccessful (
-    Id INT PRIMARY KEY NOT NULL
-)

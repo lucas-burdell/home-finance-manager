@@ -1,0 +1,1 @@
+INSERT INTO Account (ID, `Name`, PersonID) VALUES (0, 'Lucas Chase', 0), (1, 'Liz Chase', 1);

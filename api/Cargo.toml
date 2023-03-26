@@ -6,3 +6,9 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+csv = "1.2.1"
+dotenv = "0.15.0"
+rocket = "0.5.0-rc.3"
+sqlx = { version = "0.6.3", features = [ "runtime-tokio-native-tls", "mysql" ] }
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }

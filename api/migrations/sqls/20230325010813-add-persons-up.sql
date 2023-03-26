@@ -1,0 +1,1 @@
+INSERT INTO Person (ID, `Name`) VALUES (0, 'Lucas'), (1, 'Liz');
