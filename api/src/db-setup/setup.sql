@@ -21,6 +21,7 @@ CREATE TABLE Statement (
     Category VARCHAR(200),
     `Type` VARCHAR(200),
     Memo VARCHAR(2000),
+    Amount DECIMAL(9, 2),
     AccountID INT NOT NULL,
     FOREIGN KEY (AccountID) REFERENCES Account(ID)
 );

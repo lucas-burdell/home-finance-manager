@@ -27,6 +27,12 @@ dockerup:
 
 dockerdown: 
 	docker-compose down
+
+migrateup:
+  db-migrate up
+
+run:
+  cargo run
   
 help:
 	@echo "usage: make $(prog) [debug=1]"
