@@ -8,8 +8,11 @@ Copy `.env.example` file and rename the copy to `.env`, change any variables as 
 
 Run in this order:
 `make dockerup`
+
 `make migrateup`
+
 `make run`
+
 
 # migrations
 create a new migration:
